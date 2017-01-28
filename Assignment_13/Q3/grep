@@ -1,0 +1,209 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:00 [ksoftirqd/0]
+    5 ?        S<     0:00 [kworker/0:0H]
+    7 ?        S      0:28 [rcu_sched]
+    8 ?        S      0:15 [rcuos/0]
+    9 ?        S      0:31 [rcuos/1]
+   10 ?        S      0:19 [rcuos/2]
+   11 ?        S      0:16 [rcuos/3]
+   12 ?        S      0:00 [rcu_bh]
+   13 ?        S      0:00 [rcuob/0]
+   14 ?        S      0:00 [rcuob/1]
+   15 ?        S      0:00 [rcuob/2]
+   16 ?        S      0:00 [rcuob/3]
+   17 ?        S      0:00 [migration/0]
+   18 ?        S      0:00 [watchdog/0]
+   19 ?        S      0:00 [watchdog/1]
+   20 ?        S      0:00 [migration/1]
+   21 ?        S      0:00 [ksoftirqd/1]
+   23 ?        S<     0:00 [kworker/1:0H]
+   24 ?        S      0:00 [watchdog/2]
+   25 ?        S      0:00 [migration/2]
+   26 ?        S      0:00 [ksoftirqd/2]
+   28 ?        S<     0:00 [kworker/2:0H]
+   29 ?        S      0:00 [watchdog/3]
+   30 ?        S      0:00 [migration/3]
+   31 ?        S      0:00 [ksoftirqd/3]
+   33 ?        S<     0:00 [kworker/3:0H]
+   34 ?        S<     0:00 [khelper]
+   35 ?        S      0:00 [kdevtmpfs]
+   36 ?        S<     0:00 [netns]
+   37 ?        S<     0:00 [writeback]
+   38 ?        S<     0:00 [kintegrityd]
+   39 ?        S<     0:00 [bioset]
+   40 ?        S<     0:02 [kworker/u9:0]
+   41 ?        S<     0:00 [kblockd]
+   42 ?        S<     0:00 [ata_sff]
+   43 ?        S      0:00 [khubd]
+   44 ?        S<     0:00 [md]
+   45 ?        S<     0:00 [devfreq_wq]
+   48 ?        S      0:00 [khungtaskd]
+   49 ?        S      0:00 [kswapd0]
+   50 ?        SN     0:00 [ksmd]
+   51 ?        SN     0:01 [khugepaged]
+   52 ?        S      0:00 [fsnotify_mark]
+   53 ?        S      0:00 [ecryptfs-kthrea]
+   54 ?        S<     0:00 [crypto]
+   66 ?        S<     0:00 [kthrotld]
+   87 ?        S<     0:00 [deferwq]
+   88 ?        S<     0:00 [charger_manager]
+  140 ?        S<     0:00 [kpsmoused]
+  142 ?        S      0:00 [scsi_eh_0]
+  143 ?        S      0:00 [scsi_eh_1]
+  144 ?        S      0:00 [scsi_eh_2]
+  145 ?        S      0:00 [scsi_eh_3]
+  146 ?        S      0:00 [scsi_eh_4]
+  147 ?        S      0:00 [scsi_eh_5]
+  166 ?        S      0:09 [jbd2/sda1-8]
+  167 ?        S<     0:00 [ext4-rsv-conver]
+  322 ?        S      0:00 upstart-udev-bridge --daemon
+  327 ?        Ss     0:00 /lib/systemd/systemd-udevd --daemon
+  353 ?        S      0:00 [irq/47-mei_me]
+  390 ?        S<     0:01 [kworker/u9:1]
+  422 ?        S<     0:00 [hd-audio0]
+  465 ?        S<     0:00 [hd-audio1]
+  502 ?        S      0:00 upstart-socket-bridge --daemon
+  519 ?        Ss     0:00 rpcbind
+  705 ?        S<     0:00 [rpciod]
+  730 ?        S<     0:00 [nfsiod]
+  782 ?        Ss     0:40 dbus-daemon --system --fork
+  814 ?        S      0:00 upstart-file-bridge --daemon
+  815 ?        Ssl    0:01 rsyslogd
+  829 ?        Ssl    0:00 /usr/sbin/ModemManager
+  848 ?        S      0:41 avahi-daemon: running [kansas.local]
+  853 ?        S      0:00 avahi-daemon: chroot helper
+  896 ?        Ss     0:00 /usr/sbin/bluetoothd
+  903 ?        S<     0:00 [krfcommd]
+  921 ?        Ss     0:01 /lib/systemd/systemd-logind
+  933 ?        Ss     0:00 rpc.idmapd
+ 1170 ?        Ssl    0:07 NetworkManager
+ 1176 ?        Sl     0:30 /usr/lib/policykit-1/polkitd --no-debug
+ 1285 tty4     Ss+    0:00 /sbin/getty -8 38400 tty4
+ 1289 tty5     Ss+    0:00 /sbin/getty -8 38400 tty5
+ 1299 tty2     Ss+    0:00 /sbin/getty -8 38400 tty2
+ 1300 tty3     Ss+    0:00 /sbin/getty -8 38400 tty3
+ 1303 tty6     Ss+    0:00 /sbin/getty -8 38400 tty6
+ 1327 ?        Ss     0:00 /usr/sbin/sshd -D
+ 1355 ?        Ss     0:00 cron
+ 1371 ?        Ss     0:00 /usr/sbin/cups-browsed
+ 1373 ?        Ssl    0:04 /usr/sbin/automount
+ 1377 ?        Ss     0:01 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+ 1382 ?        Ss     0:00 atd
+ 1387 ?        Ss     0:11 /usr/sbin/irqbalance
+ 1389 ?        Ssl    0:00 whoopsie
+ 1397 ?        Ss     0:02 /usr/sbin/kerneloops
+ 1523 ?        Ss     0:00 /usr/lib/postfix/master
+ 1559 ?        S<     0:00 [iprt]
+ 1615 ?        S      3:01 /usr/bin/python /usr/bin/landscape-client --daemon --pid-file /var/run/landscape/landscape-client.pid
+ 1619 ?        SLsl   0:14 lightdm
+ 1634 ?        Sl     1:42 /usr/bin/python /usr/bin/landscape-broker --ignore-sigint --quiet
+ 1635 ?        Sl     1:43 /usr/bin/python /usr/bin/landscape-monitor --ignore-sigint --quiet
+ 1636 ?        S      0:55 /usr/bin/python /usr/bin/landscape-manager --ignore-sigint --quiet
+ 1686 ?        Sl     3:05 /usr/lib/accountsservice/accounts-daemon
+ 1701 tty1     Ss+    0:00 /sbin/getty -8 38400 tty1
+ 1721 ?        S      0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-em1.pid -lf /var/lib/NetworkManager/dhclient-28a58ca4-3107-4f4e-a476-adaf65b0bc05-em1.lease -cf /var/lib/NetworkManager/dhclient-em1.conf em1
+ 1746 ?        S      0:03 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1970 ?        S      0:00 qmgr -l -t fifo -u
+ 2024 ?        Ss     0:00 /usr/sbin/ntpd -f /etc/openntpd/ntpd.conf -p /var/run/openntpd.pid
+ 2025 ?        S      0:00 /usr/sbin/ntpd -f /etc/openntpd/ntpd.conf -p /var/run/openntpd.pid
+ 2026 ?        S      0:00 [kauditd]
+ 2128 ?        Sl     0:00 /usr/lib/upower/upowerd
+ 2143 ?        SNl    0:02 /usr/lib/rtkit/rtkit-daemon
+ 2293 ?        Sl     0:00 /usr/lib/colord/colord
+ 2684 ?        Ss     0:00 /usr/sbin/cupsd -f
+ 3648 ?        Sl     0:03 /usr/sbin/console-kit-daemon --no-daemon
+ 3721 ?        Ss     0:00 rpc.statd --no-notify
+ 3725 ?        S      0:00 [lockd]
+ 6166 ?        S      0:00 [kworker/0:2]
+ 7145 ?        Sl     0:23 /usr/lib/udisks2/udisksd --no-debug
+12787 ?        S      0:06 [kworker/1:2]
+14265 ?        S      0:00 pickup -l -t fifo -u -c
+14274 ?        Ss     0:00 sshd: ggd5551 [priv]
+14351 ?        S      0:00 sshd: ggd5551@notty 
+14352 ?        Ss     0:00 /usr/lib/openssh/sftp-server
+14370 ?        Ss     0:00 sshd: ggd5551 [priv]
+14424 ?        S      0:00 sshd: ggd5551@pts/12
+14425 pts/12   Ss+    0:00 -bash
+14994 pts/12   Sl     0:02 rmiregistry
+15075 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+15077 ?        Ss     0:00 init --user
+15168 ?        Ss     0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-dESf4tRAqU
+15179 ?        Ss     0:00 upstart-event-bridge
+15186 ?        Ss     0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+15195 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+15197 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+15205 ?        S      0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+15209 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+15210 ?        Ssl    0:13 /usr/bin/ibus-daemon --daemonize --xim
+15228 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+15232 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1692/gvfs -f -o big_writes
+15248 ?        Sl     0:00 /usr/lib/ibus/ibus-dconf
+15249 ?        Sl     0:03 /usr/lib/ibus/ibus-ui-gtk3
+15251 ?        Sl     0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+15272 ?        Ssl    1:37 java SlaveNode
+15281 ?        Sl     0:04 /usr/lib/ibus/ibus-engine-simple
+15290 ?        S      0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+15293 ?        S      0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+15296 ?        Ssl    0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+15306 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+15339 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
+15340 ?        Ssl    0:00 gnome-session --session=ubuntu
+15343 ?        Ssl    0:00 /usr/lib/unity/unity-panel-service
+15353 ?        S      0:00 upstart-file-bridge --daemon --user
+15363 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+15364 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+15367 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+15368 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+15369 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+15374 ?        Ssl    0:01 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+15377 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+15381 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+15406 ?        Sl     0:00 /usr/lib/evolution/evolution-source-registry
+15424 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+15474 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+15507 ?        Sl     0:00 /usr/lib/evolution/evolution-calendar-factory
+15520 ?        S      0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+15528 ?        Sl     0:16 compiz
+15655 ?        Sl     0:03 nautilus -n
+15656 ?        Sl     0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+15657 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+15658 ?        Sl     0:00 nm-applet
+15680 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+15686 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+15691 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+15695 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+15702 ?        S      0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+15710 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+15719 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.9 /org/gtk/gvfs/exec_spaw/1
+15724 ?        S      0:09 [kworker/3:2]
+15731 ?        Sl     0:00 telepathy-indicator
+15738 ?        Sl     0:00 /usr/lib/telepathy/mission-control-5
+15749 ?        Sl     0:00 /usr/bin/zeitgeist-daemon
+15757 ?        Sl     0:00 zeitgeist-datahub
+15781 tty7     Ss+    1:32 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+15788 ?        Sl     0:00 update-notifier
+15796 ?        Sl     2:32 /usr/lib/firefox/firefox
+15836 ?        Sl     0:00 lightdm --session-child 13 20
+15906 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+15924 ?        Z      0:00 [gst-plugin-scan] <defunct>
+15927 ?        Sl     0:00 gnome-terminal
+15936 ?        S      0:00 gnome-pty-helper
+15937 pts/1    Ss+    0:00 bash
+16932 ?        S      0:00 [kworker/2:1]
+17556 ?        S      0:00 [kworker/3:0]
+17722 ?        S      0:00 [kworker/u8:0]
+17777 ?        S      0:00 [kworker/0:0]
+17782 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
+17865 ?        S      0:00 [kworker/1:0]
+17867 ?        Ss     0:00 sshd: psk7534 [priv]
+17870 ?        Ss     0:00 sshd: psk7534 [priv]
+17886 ?        S      0:00 [kworker/2:2]
+17922 ?        S      0:00 sshd: psk7534@pts/6 
+17924 pts/6    Ss     0:00 -bash
+17995 ?        S      0:00 sshd: psk7534@notty 
+17996 ?        Ss     0:00 /usr/lib/openssh/sftp-server
+18132 ?        S      0:00 [kworker/3:1]
+18167 pts/6    R+     0:00 ps -e 1099
+26418 ?        S      0:02 [kworker/u8:1]
